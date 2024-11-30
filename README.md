@@ -3,29 +3,30 @@
 # TikTok, Instagram, and X Likes Analysis
 
 ## Motivation
-Social media platforms like TikTok, Instagram, and X have become integral to our daily lives, offering insights into personal behavior and engagement trends. This project aims to analyze social media engagement (likes and posts) to:
-- Understand daily usage habits across platforms.
-- Identify peak activity days.
-- Explore the effects of **exam weeks on social media usage**, observing potential shifts in behavior during stressful periods.
-- Gain self-awareness and insights into personal social media habits.
+   Our everyday lives now revolve around social media sites like X, Instagram, and TikTok, which provide insights regarding engagement patterns and individual activity. The purpose of this project is to examine social media activity (posts and likes) in order to: 
+   - Gain insight into everyday usage patterns across platforms.
+   -Determine the days and times when engagement is at its highest.
+   -Examine how **exam weeks** affect social media use, keeping an eye out for any behavioral changes that may occur during stressful times.
+   -Analyze the relationships between various platforms, such as Instagram and TikTok.
+   -Acquire self-awareness and knowledge about one's own social media usage patterns.
 
-By combining data from multiple platforms, this project provides a holistic view of user engagement patterns.
+This project offers a comprehensive picture of user interaction trends by integrating data from several platforms.
 
 ## Data Sources
+
 The data for this project is collected from:
+
 1. **TikTok**: 
-   - Exported personal activity data in a `.txt` format.
-   - Includes timestamps of all liked videos.
+   - Exported liked list data that includes liked videos with the right day and time in a `.txt` format.
 
 2. **Instagram**:
    - Exported personal activity data in an `.html` format.
    - Includes timestamps of all liked posts.
 
-3. **X (formerly Twitter)**:
-   - Exported personal activity data in an `.html` format.
-   - Includes liked posts and activity logs for further analysis.
+3. **X**:
+   - Also exported personal activity data that includes all of the past activites and total usage in an `.html` format.
 
-All datasets are preprocessed to calculate daily engagement metrics. Sensitive information is excluded to maintain privacy.
+All datasets are calculated daily. Due to some privacy concerns data cannot be shared.
 
 ## Objectives
 The primary objectives of this project are:
@@ -35,12 +36,8 @@ The primary objectives of this project are:
 4. To provide insights into overall social media usage patterns and trends.
 
 ## Tools and Methods
-- **Programming Language**: Python
+- **Python**
 - **Libraries**: 
   - `pandas` for data manipulation and analysis.
   - `matplotlib` for visualizations.
   - `BeautifulSoup` for parsing HTML files (Instagram data).
-- **Platform**: GitHub for hosting project materials and collaboration.
-- **Output**:
-  - A merged dataset summarizing daily activity across platforms.
-  - Visualizations and reports highlighting usage patterns, including during exam weeks.
