@@ -11,8 +11,6 @@ Social media platforms like TikTok, Instagram, and X have become integral to our
 
 By combining data from multiple platforms, this project provides a holistic view of user engagement patterns.
 
----
-
 ## Data Sources
 The data for this project is collected from:
 1. **TikTok**: 
@@ -29,16 +27,12 @@ The data for this project is collected from:
 
 All datasets are preprocessed to calculate daily engagement metrics. Sensitive information is excluded to maintain privacy.
 
----
-
 ## Objectives
 The primary objectives of this project are:
 1. To calculate and visualize the number of liked posts and videos per day on TikTok, Instagram, and X.
 2. To merge and analyze data across platforms for a comprehensive view of daily social media activity.
 3. To evaluate how engagement changes during exam weeks compared to regular periods.
 4. To provide insights into overall social media usage patterns and trends.
-
----
 
 ## Tools and Methods
 - **Programming Language**: Python
@@ -50,15 +44,3 @@ The primary objectives of this project are:
 - **Output**:
   - A merged dataset summarizing daily activity across platforms.
   - Visualizations and reports highlighting usage patterns, including during exam weeks.
-
----
-
-## Future Work
-- Expand the analysis to include X (formerly Twitter) usage data.
-- Explore patterns in content types (e.g., videos, images, and tweets).
-- Develop machine learning models to predict social media engagement trends.
-- Analyze how time-sensitive events (e.g., exams, holidays) affect engagement across platforms.
-
----
-
-## Repository Structure
